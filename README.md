@@ -2,7 +2,7 @@
 <br>
 <img width="731" alt="MP arch" src="https://github.com/user-attachments/assets/659e4208-77f9-4a7c-9708-eb4b60867e60">
 <br>
-The repository contains the verilog files of the individual components of the microprocessor along with the datapath file , where all of them are integrated. <br>
+The repository contains the verilog files of the individual components of the microprocessor along with the datapath file , where all of them are integrated named as dpnew. <br>
 We have created a mp_tb.v , testbench to test the working of the microprocessor designed by loading in data into Memory and instructions in the Instruction Memory as done by us in the mp_tb.v file  <br>
 Hence upon downloading all the files and running the mp_tb.v file , will lead to simulation of working of the microprocessor  <br>
 <br>
