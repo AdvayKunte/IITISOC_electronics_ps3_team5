@@ -5,7 +5,7 @@
 The above shown figure is the non pipelined architecture of our 8 bit microprocessor. <br>
 The repository contains verilog files of all these indiviual components <br>
 Along with the components controlpath and datapath files have been attached with pipelining done , the latch modules are also present in the L1 , L2 , L3 and L4 files<br>
-We have created a mp_tb.v  <br>
+We have also created a mp_tb.v  testbench file for simulation<br>
 In order to simulate some instructions on the microprocessor we have  instantiated the datapath , initialized the instruction memory and ram with certain instructions <br>
 Upon running this testbench , we will get the values of all the 5 registers from Regfile and from  the memory location and we can see that one after the other instruction effects are being seen through the display <br>
 <h2>How can new instructions be given?</h2>
