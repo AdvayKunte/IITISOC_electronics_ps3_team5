@@ -2,10 +2,12 @@
 <br>
 <img width="731" alt="MP arch" src="https://github.com/user-attachments/assets/659e4208-77f9-4a7c-9708-eb4b60867e60">
 <br>
-The repository contains the verilog files of the individual components of the microprocessor along with the datapath file , where all of them are integrated named as dpnew. <br>
-We have created a mp_tb.v , testbench to test the working of the microprocessor designed by loading in data into Memory and instructions in the Instruction Memory as done by us in the mp_tb.v file  <br>
-Hence upon downloading all the files and running the mp_tb.v file , will lead to simulation of working of the microprocessor  <br>
-<br>
+The above shown figure is the non pipelined architecture of our 8 bit microprocessor. <br>
+The repository contains verilog files of all these indiviual components <br>
+Along with the components controlpath and datapath files have been attached with pipelining done , the latch modules are also present in the L1 , L2 , L3 and L4 files<br>
+We have created a mp_tb.v  <br>
+In order to simulate some instructions on the microprocessor we have  instantiated the datapath , initialized the instruction memory and ram with certain instructions <br>
+Upon running this testbench , we will get the values of all the 5 registers from Regfile and from  the memory location and we can see that one after the other instruction effects are being seen through the display <br>
 <img width="731" alt="MP arch" src="https://github.com/user-attachments/assets/5580c3aa-68bd-4094-9568-f6fda30cda21">
 <br>
 <img width="731" alt="MP arch" src="https://github.com/user-attachments/assets/d7394452-682f-4198-9ac6-124fb57f8e95">
