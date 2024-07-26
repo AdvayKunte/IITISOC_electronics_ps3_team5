@@ -8,6 +8,8 @@ Along with the components controlpath and datapath files have been attached with
 We have created a mp_tb.v  <br>
 In order to simulate some instructions on the microprocessor we have  instantiated the datapath , initialized the instruction memory and ram with certain instructions <br>
 Upon running this testbench , we will get the values of all the 5 registers from Regfile and from  the memory location and we can see that one after the other instruction effects are being seen through the display <br>
+<h2>How can new instructions be given?</h2>
+<br> The below contains some tables regarding information of how each instruction will be written in 16 bit <br>
 <img width="731" alt="MP arch" src="https://github.com/user-attachments/assets/5580c3aa-68bd-4094-9568-f6fda30cda21">
 <br>
 <img width="731" alt="MP arch" src="https://github.com/user-attachments/assets/d7394452-682f-4198-9ac6-124fb57f8e95">
