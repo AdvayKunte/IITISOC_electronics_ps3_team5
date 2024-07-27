@@ -25,8 +25,8 @@ module testbench();
     integer i ;
     always @ (posedge clk)
         begin
-            $display("Time: %0d , add = %b , inst=%b , pinci = %b , l1_m2= %b , l2_m2 = %b , l3_m2 = %b, alubeq= %b , pin =%b ",$time, d.tIR, d.tInst, d.pinci , d.m2out , d.l2m2out , d.l3m2out, d.alubeq , d.pin );
-            $display("Time: %0d , OpFn=%b , Branch = %b, NIA=%b , RegA=%b , RegB=%b , RegC=%b, RegD=%b, RegE=%b ,Mem[22]=%b",$time,d.OpFn,d.alubeq, d.NIA,d.RF.RegFile[1],d.RF.RegFile[2],d.RF.RegFile[3], d.RF.RegFile[4], d.RF.RegFile[5],d.MEM.memory_array[22]);
+            $display("Time: %0d , add = %b , inst=%b ",$time, d.tIR, d.tInst);
+            $display("Time: %0d : RegA=%b , RegB=%b , RegC=%b, RegD=%b, RegE=%b ,Mem[22]=%b",$time,d.RF.RegFile[1],d.RF.RegFile[2],d.RF.RegFile[3], d.RF.RegFile[4], d.RF.RegFile[5],d.MEM.memory_array[22]);
         end 
     initial 
         begin
