@@ -49,6 +49,7 @@ module Datapath(clk,rst);
     wire [7:0] L4alu_in, L4mem_in;
     wire L4MemToRegmux , L4regwrite;
     wire [2:0] L4_regwradd;
+    wire [4:0] OpFn;
 
 
     controlpath cp(
